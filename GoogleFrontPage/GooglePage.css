@@ -4,7 +4,6 @@ body{
 }
 nav{
      text-align: right;
-     /* padding-right: 10px; */
 }
 .menu-items{
     font-size: 13px;
@@ -22,10 +21,17 @@ nav{
     width: 32px;
     height: 32px;
 }
+#dropdown-wrapper{
+    display:inline-block;
+}
 #dropdown-menu{
     position: relative;
     top: -4px;
-    margin-right: 16px;
+    margin-right: 16px; 
+}
+
+#dropdown-wrapper:hover #app-dropdown{
+    display: block; 
 }
 section{
     text-align: center;
@@ -80,4 +86,32 @@ section{
 
 .custom-btn:first-of-type{
     margin: 16px;
+}
+#app-dropdown{
+    width: 285px;
+    padding: 28px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    position:absolute;
+    right: 75px;
+    display:none;
+}
+.app-items{
+    display: inline-block;
+    width: 84px;
+    padding: 8px 2px;
+    text-align: center;
+}
+.app-items > img{
+    width: 50px;
+    height: 50px;
+}
+.app-items:hover{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+.app-items > p{
+    color:rgba(0,0,0,0.87);
+    margin: 0;
+    padding: 8px
 }
