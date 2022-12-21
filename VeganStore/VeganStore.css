@@ -44,7 +44,8 @@ nav{
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
     position:absolute;
     right: 400px;
-    transition: all 0.3s;
+    background-color: white;
+    /* transition: all 0.3s; */
     display:none;
 
 }
@@ -64,14 +65,14 @@ nav{
     padding: 4px;
     cursor: pointer;
 }
-.buynow-btn{
+.primary-btn{
     font-size: 12px;
     background-color: #aad236;
     color:white;
     font-weight: 600;
     padding: 9px 34px;
     border-radius: 4px;
-    border: none;
+    border: 0;
     text-transform: uppercase;
     margin-right: 16px;
     cursor: pointer;
@@ -231,6 +232,8 @@ nav{
     font-weight: 500;
     color: #8b8b99;
 }
+
+/* Testimonial Section */
 #testimonial-section{
     width: 100%;
     background-color:white;
@@ -298,25 +301,204 @@ nav{
     font-style: italic;
     margin: 0;
 }
+/* Testimonial Section Ends */
 
+/* Folllow Us Section */
+#follow-section{
+    display: flex;
+    justify-content: stretch;
+}
+#left-section{
+    width: 67%;
+    display: inline-block;
+    margin: 0;
+}
+#left-section img{
+    width: 100%;
+}
+#right-section{
+    width: 33.33%;
+    margin: 0;
+    background-image: url('https://edyoda.s3.ap-south-1.amazonaws.com/public/strawberry-white.png');
+    display: inline-block;
+    background-position: left;
+    background-size: cover;
+}
+#right-section #text-wrapper{
+    margin: 115px;
+}
+#right-section #text-wrapper h3{
+    font-size: 44px;
+    font-weight: 600;
+    margin: 0 0 8px;
+}
+#right-section #text-wrapper p{
+    color: #8b8b99;
+    font-size: 16px;
+    letter-spacing: 0.5;
+    line-height: 1.6;
+    margin: 0;
+}
 
+#subscribe-email{
+    width: 100%;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 4px;
+    font-weight: 500;
+    background-color: white;
+    padding: 12px;
+    color: #8b8b99;
+    font-size: 16px;
+    margin-top: 60px;
+    display:block;
+}
+#subscribe-btn{
+    background-color: #f69dad;
+    padding: 16px 42px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    border: 0;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 16px;
+}
+#subscribe-btn:hover {
+    color: #f69dad;
+    border: 1px solid #f69dad;
+    background-color: transparent;
+}
 
+#stats-section{
+    background-color: #f6fcfa;
+    width: 100%;
+}
+#stats-wrapper{
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: stretch;
+    padding: 100px 0;
+    text-align: center;
+}
+.stats-item{
+    width: 25%;
+    padding: 0 64px;
+}
+.stats-item h3 {
+    font-size: 44px;
+    font-weight: 600;
+    margin: 0;
+}
+.stats-item p{
+    color: #57e3b5;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-style: italic;
+    margin: 0;
+}
 
+/* Video Section */
+#video-section h3{
+    color: #8b8b99;
+    font-size: 44px;
+    font-weight: 400;
+}
+#video-section{
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+}
+#line-separator{
+    width: 96px;
+    height: 1px;
+    background-color: #e4b476;
+    margin-bottom: 36px;
+    display: inline-block;
+}
+#video-section iframe {
+    width: 100%;
+    height: 425px;
+}
+/* #address-section{
+    width: 100%;
+    max-width: 1140px;
+} */
+#address-wrapper{
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-between;
+    padding: 100px 0;
+}
+#address-wrapper > div{
+    width: 50%;
+}
+#address-wrapper > div:last-of-type{
+    width: 40%;
+}
+.green-heading{
+    color: #91ac41;
+    font-size: 24px;
+    font-family: 'Caveat',cursive;
+    margin: 0;
+    margin-top: 35px;
+}
+.section-heading{
+    font-size: 44px;
+    font-weight: 600;
+    margin: 0;
+}
+.section-desc {
+    font-size: 16px;
+    font-weight: 400;
+    color: #8b8b99;
+    letter-spacing: 0.5px;
+}
+.address-heading {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+    margin-top: 32px;
+}
 
+.address-lines {
+    font-size: 16px;
+    font-weight: 400;
+    color: #8b8b99;
+    letter-spacing: 0.5px;
+    line-height: 2;
+    margin: 0;
+}
+.input-box{
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    font-size: 16px;
+    padding: 16px;
+    color: #8b8b99;
+    border-radius: 6px;
+    border: 1px solid #e5e6ec;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
 
+#btn-submit{
+    font-size: 16px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+footer{
+    background-color: #232323;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    padding: 30px 0;
+}
 
 /* Flex Styling */
 @media (max-width: 900px) {
