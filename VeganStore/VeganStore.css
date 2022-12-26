@@ -593,4 +593,54 @@ footer{
     .testimonial-by {
         font-size: important 18px;
     }
+
+    #follow-section {
+        flex-direction: column;
+    }
+    
+    #right-section #text-wrapper {
+        margin: 16px;
+    }
+
+    #right-section #text-wrapper h3 {
+        font-size: 28px;
+    }
+
+    #left-section {
+        width: 100%;
+    }
+
+    #right-section {
+        width: 100%;
+    }
+
+    #stats-wrapper {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .stats-item {
+        width: 100%;
+        margin-bottom: 16px;
+
+    }
+
+    #address-wrapper {
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        padding: 16px;
+        padding-top: 0;
+        box-sizing: border-box;
+    }
+
+    #address-wrapper > div {
+        width: 100%;
+    }
+
+    #address-wrapper > div:last-of-type {
+        width: 100%;
+    } 
+
 }
